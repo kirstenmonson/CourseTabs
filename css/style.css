@@ -1,0 +1,30 @@
+.oneline{
+  display:inline-block;
+  
+}
+
+.otherclass{
+  visibility: hidden;
+}
+
+ul.classes li{
+  display:inline-block;
+  cursor: pointer;
+  background: white;
+  height: 30px;
+}
+
+ul.classes li.current{
+			background: beige;
+		}
+
+.expanded_content{
+			display: none;
+		}
+
+.expanded_content.current{
+			display: inherit;
+  background: beige;
+  width:500px;
+		}
+
